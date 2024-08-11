@@ -11,6 +11,7 @@ import { useEffect, useState, useRef } from "react";
 import SpecialHeading from "./SpecialHeading";
 import SkilsLanguageBar from "./SkilsLanguageBar";
 import SkilsProgressBar from "./SkilsProgressBar";
+import { sr } from "..";
 const Skils = () => {
   const [skils, setSkils] = useState({
     html: 0,
@@ -23,6 +24,8 @@ const Skils = () => {
   });
   const myRef = useRef();
   useEffect(() => {
+    sr.reveal(".skils .container .img .img-box" , {origin: "bottom"})
+    sr.reveal(".skils .container .skils-content .skils-box" , {origin: "bottom"})
     window.addEventListener("scroll", function () {
       if (myRef.current != null) {
         if (window.scrollY >= myRef.current.offsetTop) {

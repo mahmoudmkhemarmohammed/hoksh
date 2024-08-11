@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import SpecialHeading from "./SpecialHeading";
+import { sr } from "..";
 
 const Contact = () => {
+  useEffect(() => {
+    sr.reveal(".contact .container .content .con input , .contact .container .content .con textarea" , {origin: "bottom" , interval: 400})
+  } , [])
   return (
     <section className="contact">
       <div className="container">

@@ -5,7 +5,12 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import SpecialHeading from "./SpecialHeading";
+import { useEffect } from "react";
+import { sr } from "..";
 const About = () => {
+  useEffect(() => {
+    sr.reveal(".about .container .about-contact .about ,.about .container .about-contact .social" , {origin: "bottom" , interval: 400})
+  } , [])
   return (
     <section className="about">
       <div className="container">

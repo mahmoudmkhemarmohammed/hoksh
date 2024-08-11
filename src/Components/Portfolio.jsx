@@ -30,7 +30,7 @@ const Portfolio = () => {
   useEffect(() => {
     handlerFilter();
     sr.reveal(".portfolio .container .content .projects-box" , {origin: "bottom"})
-    sr.reveal(".portfolio .container .content .filter" , {origin: "right"})
+    sr.reveal(".portfolio .container .content .filter ul li" , {origin: "right" , interval: 300})
   }, []);
   return (
     <section id="portfolio" className="portfolio">
@@ -49,7 +49,7 @@ const Portfolio = () => {
               />
             ))}
           </div>
-          <div className="filter w-1/5 h-[500px] sticky top-[70px] bg-[#243945] rounded-xl px-[25px] max-sm:h-[120px] max-sm:w-full max-sm:px-2">
+          <div className="filter overflow-x-hidden w-1/5 h-[500px] sticky top-[70px] bg-[#243945] rounded-xl px-[25px] max-sm:h-[120px] max-sm:w-full max-sm:px-2">
             <ul className="h-full flex justify-center items-center flex-col *:flex *:justify-center *:items-center *:gap-3 *:flex-wrap *:cursor-pointer *:p-[15px] *:w-full gap-5 *:text-[32px] *:min-h-[70px] *:bg-[#1c2c36] *:rounded-[10px] group max-sm:flex-row max-sm:*:text-[25px] max-sm:*:h-[92px] max-sm:gap-1">
               <li
                 data-filter={".portfolio .container .card"}

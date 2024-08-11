@@ -24,7 +24,7 @@ const Details = () => {
             <div className="text">
               <h2 className="text-[40px] font-extrabold capitalize text-[#0ef] max-sm:text-3xl">{project.title}</h2>
               <h3 className="mt-[10px] text-4xl font-bold capitalize max-sm:text-2xl">
-                Language : <span className="text-[#59ff00]">{project.language}</span>
+              Techns used : <span className="text-[#59ff00]">{project.language}</span>
               </h3>
               <p className=" capitalize leading-[2] text-[#ff710c] text-[22px] mt-3 max-sm:text-[18px]">
                 Description : <span className="text-[19px] text-white max-sm:text-[16px]">{project.description}</span>

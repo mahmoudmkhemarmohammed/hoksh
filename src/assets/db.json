@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Currency Converter",
+    "description": "The Currency-Converter-2 website is a website for converting currencies into different currencies and gives the price of the dollar, the euro, the British pound, and the Saudi riyal in Egyptian after converting the amount you requested to know.",
+    "link": "https://mahmoudmkhemarmohammed.github.io/Currency-Converter-2",
+    "language": "html-css-js-api",
+    "img": "images/currency-converter.png"
+  },
+  {
+    "id": 2,
+    "title": "Nav Name",
+    "description": "It is a simple navbar, but it displays names in a wonderful way and can be used on large websites",
+    "link": "https://mahmoudmkhemarmohammed.github.io/nav-name",
+    "language": "html-css",
+    "img": "images/ul-nav.png"
+  },
+  {
+    "id": 3,
+    "title": "Dashboard",
+    "description": "A simple control panel that displays a fixed set of products",
+    "link": "https://mahmoudmkhemarmohammed.github.io/dashboard",
+    "language": "html-css",
+    "img": "images/dashboard.png"
+  },
+  {
+    "id": 4,
+    "title": "Zakah",
+    "description": "The Zakat website is an application that calculates the Zakat percentage of money in a correct way, whatever the amount the user enters.",
+    "link": "https://mahmoudmkhemarmohammed.github.io/Zakat-on-Money",
+    "language": "html-css-js",
+    "img": "images/zakah.png"
+  },
+  {
+    "id": 5,
+    "title": "Iphone Landing Page",
+    "description": "The Coda Game website is one of the best sites for buying games at a cheap price. It also contains some free games and was developed by engineer Mahmoud Mkhemar.",
+    "link": "https://mahmoudmkhemarmohammed.github.io/Iphone-Landing-Page",
+    "language": "html-css-js",
+    "img": "images/Iphone.png"
+  },
+  {
+    "id": 6,
+    "title": "Get Repoes",
+    "description": "Get-reopes fetches users' repositories on GitHub and displays the number of stars by name.",
+    "link": "https://mahmoudmkhemarmohammed.github.io/get-repoes",
+    "language": "html-css-js-api",
+    "img": "images/get-reapoes.png"
+  },
+  {
+    "id": 7,
+    "title": "Coda Editor",
+    "description": "The Coda Editor application is a simple application that edits images by adding some effects to improve the image quality",
+    "link": "https://mahmoudmkhemarmohammed.github.io/Coda_Editor",
+    "language": "html-css-js",
+    "img": "images/Coda-Editor.png"
+  },
+  {
+    "id": 8,
+    "title": "Gallery App",
+    "description": "The Gallery App website is a gallery for displaying images in a distinctive way and supports distinctive features, including Dark Mode",
+    "link": "https://mahmoudmkhemarmohammed.github.io/gallery-app",
+    "language": "html-css-js",
+    "img": "images/img-slider.png"
+  },
+  {
+    "id": 9,
+    "title": "Hoda Gallery",
+    "description": "The Gallery App website is a gallery for displaying images in a distinctive way and supports distinctive features",
+    "link": "https://hoda-gallery.netlify.app",
+    "language": "html-css-js-api",
+    "img": "images/hoda-gallery.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Solarty",
+    "description": "It is a website to provide services related to solar energy, which was created by engineer Mahmoud Mkhemar.",
+    "link": "https://mahmoudmkhemarmohammed.github.io/solarty",
+    "language": "html-css-js",
+    "img": "images/solarty.png"
+  },
+  {
+    "id": 11,
+    "title": "viva",
+    "description": "It is a site for displaying furniture with a modern design",
+    "link": "https://mahmoudmkhemarmohammed.github.io/viva",
+    "language": "html-css-js",
+    "img": "images/viva.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Villa",
+    "description": "Villa website is a real estate website that contains the most luxurious and elegant villas, palaces and castles at a reasonable price and with a wonderful design and in the most luxurious and elegant places for you as a buyer.",
+    "link": "https://mahmoudmkhemarmohammed.github.io/villa",
+    "language": "html-css-js",
+    "img": "images/villa.png"
+  },
+  {
+    "id": 13,
+    "title": "Coda Game",
+    "description": "The Coda Game website is one of the best sites for buying games at a cheap price. It also contains some free games and was developed by engineer Mahmoud Mkhemar.",
+    "link": "https://mahmoudmkhemarmohammed.github.io/Coda-Game",
+    "language": "html-css-js",
+    "img": "images/Coda-Game.png"
+  },
+  {
+    "id": 14,
+    "title": "Your Quran",
+    "description": "موقع قرأنك تم انشائه بواسطه المهندس محمود مخيمر ويعد من اقوي المواقع لحفظ القرأن الكريم استماعا لانه يحتوي علي العديد من المميزات منها انه يحتوي علي اشهر القراء في الوطن العربي بروايات مختلفه لكل قارئ وكذالك يحتوي علي الإذاعه لقناه مكه المكرمه وقناه السنه النبويه ويحتوي علي التفسير للقرأن والرقيه الشرعيه ومميزات اخري يمكنك رؤيتها من خلال تصفحك للموقع",
+    "link": "https://mahmoudmkhemarmohammed.github.io/Your-Quran",
+    "language": "html-css-js-api",
+    "img": "images/Your Quran.png"
+  },
+  {
+    "id": 15,
+    "title": "Hoda Movie",
+    "description": "The Houda Movie website was created by engineer Mahmoud Mkhemar. It is a website for the most popular and trendy movies and series. It also contains Arabic movies, Indian movies, and many horror, thriller, action, comedies, romantic movies, anime movies, and many movies. You can see the features that the site offers by browsing it.",
+    "link": "https://mahmoudmkhemarmohammed.github.io/Hoda-Movie",
+    "language": "html-css-js-api",
+    "img": "images/Hoda-Movie.png"
+  },
+  {
+    "id": 16,
+    "title": "Mo Market",
+    "description": "It is a complete, modern e-commerce website with a modern design that was created by engineer Mahmoud Mkhemar and one of the finest projects I have.",
+    "link": "https://momarket.netlify.app",
+    "language": "html-css-js-api",
+    "img": "images/mo-market.jpg"
+  },
+  {
+    "id": 17,
+    "title": "M Store",
+    "description": "It is a complete, modern e-commerce website with a modern design that was created by engineer Mahmoud Mkhemar and one of the finest projects I have.",
+    "link": "https://moostore.netlify.app",
+    "language": "react",
+    "img": "images/m-store.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Webteb",
+    "description": "It is a website that provides medical services and consultations and has a modern and elegant design",
+    "link": "https://webteb.netlify.app",
+    "language": "react",
+    "img": "images/webteb.jpg"
+  }
+]

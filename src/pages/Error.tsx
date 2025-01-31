@@ -1,6 +1,9 @@
+import ErrorFetch from "@components/feedback/Error/ErrorFetch"
 const Error = () => {
   return (
-    <div>Error</div>
+    <div className="h-screen flex justify-center items-center">
+      <ErrorFetch error="404 - Page Not Found"/>
+    </div>
   )
 }
 

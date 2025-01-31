@@ -19,8 +19,8 @@ const BtnResetScroll = () => {
   };
   return (
     <motion.div
-      initial={{ opacity: 0, y: -20, scale: 0 }}
-      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      initial={{ opacity: 0, x: 40, scale: 0 }}
+      whileInView={{ opacity: 1, x: 0, scale: 1 }}
       transition={{ duration: 1, type: "spring" }}
       className="btn-scroller hidden fixed right-5 bottom-5 text-2xl bg-[#0ef] p-3 rounded-full text-black cursor-pointer"
       ref={myRef}

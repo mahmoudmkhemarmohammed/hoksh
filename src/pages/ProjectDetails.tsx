@@ -29,7 +29,7 @@ const ProjectDetails = () => {
           >
             <LazyImg
               className="w-full h-full"
-              src={`http://localhost:3000${img}`}
+              src={`${import.meta.env.VITE_BASE_URL}${img}`}
               alt={title as string}
             />
           </motion.div>

@@ -41,7 +41,7 @@ const Portfolio = () => {
                   index={index}
                   key={card.id}
                   title={card.title}
-                  img={`http://localhost:3000${card.img}`}
+                  img={`${import.meta.env.VITE_BASE_URL}${card.img}`}
                   id={card.id}
                   link={card.link}
                 />

@@ -16,6 +16,7 @@ const Services = () => {
               <FaReact className="text-[60px] inline-block text-[#5395ff] font-bold pt-[10px]" />
             }
             title="React Developer"
+            description="I specialize in developing web applications using React, and I have many projects that you can browse here"
           />
           <ServicesCard
             index={2}
@@ -23,6 +24,7 @@ const Services = () => {
               <GrCloudlinux className="text-[60px] inline-block text-[#0ef] font-bold pt-[10px]" />
             }
             title="Ui Developer"
+            description="I'm a UI Developer specializing in building interactive and responsive user interfaces using React.js and Next.js."
           />
           <ServicesCard
             index={3}
@@ -30,6 +32,7 @@ const Services = () => {
               <FaPencilRuler className="text-[60px] inline-block text-pink-600 font-bold pt-[10px]" />
             }
             title="Web Desinger"
+            description="I'm a Web Designer specializing in creating modern and visually appealing interfaces with a strong focus on UI/UX design."
           />
           <ServicesCard
             index={4}
@@ -37,6 +40,7 @@ const Services = () => {
               <PiCodeSimple className="text-[60px] inline-block text-yellow-500 font-bold pt-[10px]" />
             }
             title="Web Development"
+            description="I'm a UI Developer specializing in building interactive and responsive user interfaces using React.js and Next.js."
           />
           <ServicesCard
             index={5}
@@ -44,6 +48,7 @@ const Services = () => {
               <SiFreelancer className="text-[60px] inline-block text-green-400 font-bold pt-[10px]" />
             }
             title="Freelancer"
+            description="I'm a Freelancer Front-End Developer specializing in building modern and interactive user interfaces using React.js and Next.js"
           />
         </div>
       </div>

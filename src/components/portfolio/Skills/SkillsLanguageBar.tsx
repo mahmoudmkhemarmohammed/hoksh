@@ -13,7 +13,7 @@ const SkillsLanguageBar = ({
       <span className="bar w-[88%] h-full bg-[#162229] rounded-[10px] flex items-center">
         <span
           className={`inline-block h-full w-0 rounded-[10px] ${bg} duration-500 relative`}
-          data-width={skills}
+          data-width={`${skills}%`}
           style={{ width: `${skills}%` }}
         ></span>
       </span>

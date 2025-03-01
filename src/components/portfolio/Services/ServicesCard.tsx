@@ -3,10 +3,12 @@ import { motion } from "motion/react";
 const ServicesCard = ({
   icon,
   title,
+  description,
   index,
 }: {
   icon: JSX.Element;
   title: string;
+  description: string;
   index: number;
 }) => {
   return (
@@ -24,10 +26,7 @@ const ServicesCard = ({
       <h2 className="text-[32px] font-extrabold pt-[10px] capitalize leading-[2] max-sm:text-[27px]">
         {title}
       </h2>
-      <p className="text-[16px] capitalize leading-[2]">
-        Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Doloremque,
-        Beatae?
-      </p>
+      <p className="text-[16px] capitalize leading-[2]">{description}</p>
       <span
         className="inline-block w-2/4 bg-[#0ef] text-[18px] font-bold capitalize rounded-[20px] cursor-pointer p-[15px] text-black duration-300 shadow-[0 0 10px] shadow-shadowButton hover:bg-[#001a25] hover:text-white "
         onClick={() => scrollHandler("portfolio")}

@@ -38,7 +38,7 @@ const Hero = () => {
             viewport={{ once: true }}
             className="rot-images w-[480px] overflow-hidden rounded-full flex justify-center items-center max-lg:w-full"
           >
-            <LazyImg src={Profile} alt="profile" className="w-full" />
+            <LazyImg loading="eager" src={Profile} alt="profile" className="w-full" />
           </motion.div>
         </div>
       </section>

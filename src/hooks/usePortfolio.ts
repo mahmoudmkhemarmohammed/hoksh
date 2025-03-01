@@ -15,7 +15,7 @@ const usePortfolio = () => {
   const [total, setTotal] = useState(0);
 
   const perfixHandler = (value: string) => {
-    scrollHandler("portfolio")
+    scrollHandler("portfolio" , "instant")
     setPerfix(value);
     setPage(1)
   };
@@ -26,16 +26,16 @@ const usePortfolio = () => {
 
   const handelPagination = (pageNumber: number) => {
     setPage(pageNumber);
-    scrollHandler("portfolio")
+    scrollHandler("portfolio" , "instant")
   };
 
   const handelPrevAndNextButton = (typeBtnAction: string) => {
     if (typeBtnAction === "prev") {
       setPage((prev) => (prev > 1 ? --prev : 1));
-      scrollHandler("portfolio")
+      scrollHandler("portfolio" , "instant")
     } else {
       setPage((prev) => (prev < total ? ++prev : total));
-      scrollHandler("portfolio")
+      scrollHandler("portfolio" , "instant")
     }
   };
 

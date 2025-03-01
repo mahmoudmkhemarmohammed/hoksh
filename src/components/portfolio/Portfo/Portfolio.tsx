@@ -21,11 +21,17 @@ const Portfolio = () => {
     total,
   } = usePortfolio();
 
+  console.log(projects);
+
   return (
     <section id="portfolio" className="portfolio">
       <div className="container">
         <SpecialHeading title="Projects" />
-        <div className={`content flex justify-between ${projects.length > 0 && "min-h-screen"} gap-5 max-sm:flex-col-reverse`}>
+        <div
+          className={`content flex justify-between ${
+            projects.length > 0 && "min-h-screen"
+          } gap-5 max-sm:flex-col-reverse`}
+        >
           <div
             className={`${
               (projects.length > 0 && loading == "fulfilled") ||
@@ -36,16 +42,18 @@ const Portfolio = () => {
             }`}
           >
             <Loading status={loading} error={error}>
-              {projects.map((card: TCard, index) => (
-                <PortfolioCard
-                  index={index}
-                  key={card.id}
-                  title={card.title}
-                  img={card.img}
-                  id={card.id}
-                  link={card.link}
-                />
-              ))}
+              {projects.length > 0
+                ? projects.map((card: TCard, index) => (
+                    <PortfolioCard
+                      index={index}
+                      key={card.id}
+                      title={card.title}
+                      img={card.img}
+                      id={card.id}
+                      link={card.link}
+                    />
+                  ))
+                : "No Data Available"}
             </Loading>
           </div>
           <div className="filter overflow-x-hidden w-1/5 h-[500px] sticky top-[70px] bg-[#243945] rounded-xl px-[25px] max-sm:h-[120px] max-sm:w-full max-sm:px-2">

@@ -3,9 +3,9 @@ import { motion } from "motion/react";
 const PersonalSkills = ({ activeClass }: { activeClass: boolean }) => {
   return (
     <motion.div
-      initial={{ opacity: 0, y: -20, scale: 0 }}
-      whileInView={{ opacity: 1, y: 0, scale: 1 }}
-      transition={{ duration: 1, type: "spring" }}
+      initial={{ opacity: 0, scale: 0.7 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.4 }}
       viewport={{ once: true }}
       className="personal-skills"
     >

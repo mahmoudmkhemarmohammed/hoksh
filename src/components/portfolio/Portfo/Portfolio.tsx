@@ -20,9 +20,7 @@ const Portfolio = () => {
     handelPrevAndNextButton,
     total,
   } = usePortfolio();
-
-  console.log(projects);
-
+  
   return (
     <section id="portfolio" className="portfolio">
       <div className="container">

@@ -25,9 +25,9 @@ const TechnicalSkills = ({
   return (
     <motion.div
       className="technical-skills"
-      initial={{ opacity: 0, y: -20, scale: 0 }}
-      whileInView={{ opacity: 1, y: 0, scale: 1 }}
-      transition={{ duration: 1, type: "spring" }}
+      initial={{ opacity: 0, scale: 0.7 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.4 }}
       viewport={{ once: true }}
     >
       <h2 className="text-4xl mb-5 capitalize text-[#0ef] font-extrabold max-[440px]:text-3xl">

@@ -41,9 +41,8 @@ const Portfolio = () => {
           >
             <Loading status={loading} error={error}>
               {projects.length > 0
-                ? projects.map((card: TCard, index) => (
+                ? projects.map((card: TCard) => (
                     <PortfolioCard
-                      index={index}
                       key={card.id}
                       title={card.title}
                       img={card.img}
@@ -54,7 +53,7 @@ const Portfolio = () => {
                 : "No Data Available"}
             </Loading>
           </div>
-          <div className="filter overflow-x-hidden w-1/5 h-[500px] sticky top-[70px] bg-[#243945] rounded-xl px-[25px] max-sm:h-[120px] max-sm:w-full max-sm:px-2">
+          <div className="filter overflow-x-hidden w-1/5 h-[500px] sticky z-50 top-[70px] bg-[#243945] rounded-xl px-[25px] max-sm:h-[120px] max-sm:w-full max-sm:px-2">
             <ul className="h-full flex justify-center items-center flex-col max-sm:flex-row gap-5 max-sm:gap-1">
               <LiFilter
                 title="All"

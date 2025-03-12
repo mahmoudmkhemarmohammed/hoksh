@@ -5,22 +5,19 @@ const PortfolioCard = ({
   img,
   title,
   link,
-  index,
   id
 }: {
   img: string;
   title: string;
   link: string;
   id: number;
-  index: number;
 }) => {
   return (
     <motion.div
       transition={{
         duration: 0.4,
-        delay: typeof index === "number" ? index * 0.1 : 0,
       }}
-      initial={{ opacity: 0, y: 10, filter: "blur(4px)" }}
+      initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
       whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       viewport={{ once: true }}
       className={`card bg-[#243945] rounded-[15px] h-fit overflow-hidden duration-[.4s] border-[2px] border-solid border-transparent hover:border-[#0ef]`}
